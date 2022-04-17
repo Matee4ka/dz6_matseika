@@ -11,16 +11,46 @@ section.category.container
    //-    +category-item('./assets/imgs/01.svg', 'Snacks')
    //-    +category-item('./assets/imgs/01.svg', 'Home Care')
    .category__row 
-      +category-item(
-         {
-            img: './assets/imgs/01.svg',
-            text: 'Vegetables & Fruits'
-         }
-      )
-      +category-item(
-         {
-            img: './assets/imgs/01.svg',
-            text: 'Vegetables & Fruits'
-         }
-      )
+      .category__column
+         +category-item(
+            {
+               img: './assets/imgs/01.svg',
+               text: 'Vegetables & Fruits'
+            }
+         )
+      .category__column
+         +category-item(
+            {
+               img: './assets/imgs/02.svg',
+               text: 'Grocery & Staples'
+            }
+         )
+      .category__column
+         +category-item(
+            {
+               img: './assets/imgs/03.svg',
+               text: 'Dairy & Eggs'
+            }
+         )
+      .category__column
+         +category-item(
+            {
+               img: './assets/imgs/04.svg',
+               text: 'Beverages'
+            }
+         )
+      .category__column
+         +category-item(
+            {
+               img: './assets/imgs/05.svg',
+               text: 'Snacks'
+            }
+         )
+      .category__column
+         +category-item(
+            {
+               img: './assets/imgs/06.svg',
+               text: 'Home Care'
+            }
+         )
 
