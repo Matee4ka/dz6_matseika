@@ -1,0 +1,20 @@
+$primary-color: #888888;
+
+.category {
+
+   h2 {
+      color: $primary-color;
+   }
+
+   h3 {
+      color: $primary-color;
+   }
+
+   &__row {}
+
+   &__item {}
+
+   &__img {}
+
+   &__text {}
+}
